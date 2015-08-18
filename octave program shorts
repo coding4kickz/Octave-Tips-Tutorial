@@ -1,0 +1,13 @@
+Normal equation:
+theta = (X^TX)^-1X^Ty
+>set A=X^TX
+Octave: pinv(x'*x)*x'*y
+x'=x^t in octave
+
+To get inverse > octave, set matrix
+A=[3 4 ; 2 16]
+>pin v(A) ans.
+>inverse of A=inv(A)
+>A*inverseA (essentially the identity matrix)
+>inverseofA*A
+
